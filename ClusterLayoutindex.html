@@ -1,0 +1,74 @@
+<!-- File: ClusterLayout.html -->
+<!-- Name: Mingun Cho  -->
+<!-- CruzID: mcho23@ucsc.edu -->
+<!-- StudentID: 1654724 -->
+<!DOCTYPE html>
+<html> 
+    
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <!-- Title Tag -->
+    <title>Cluster Layout</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="ClusterLayoutstylesheet.css">  
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script> 
+  </head>
+    
+  <body>
+    <!-- Title (with color) -->
+    <h1 style = "text-align:center; color:black; font-size:30px; font-family:Calibri">
+        <bold>Cluster Layout</bold></h1>
+	    <!-- Radiobuttons -->
+	    <p style = "text-align: center"> Made by Mingun Cho </p>
+	    <p style = "text-align: center"> CSE163 Spring 2020 Assignment 9: Class Presentation</p>
+	    <!-- Radiobuttons -->
+	    <div style = "padding-bottom: 0.5em; text-align: center"> 
+	        <input type ="button" value="Basic (Default)" onclick="basic_default()">
+			<input type ="button" value="Basic (More)" onclick="basic_more()">
+	    </div>
+	    <div style = "padding-bottom: 0.5em; text-align: center">
+	        <input type ="button" value="Dendrogram (Default)" onclick="dendrogram_default()">
+		    <input type ="button" value="Dendrogram (UCSC Summer)" onclick="dendrogram_ucsc()">
+	    </div>
+	    <div style = "padding-bottom: 3em; text-align: center">
+			<input type ="button" value="Radial (Default)" onclick="radial_default()">
+			<input type ="button" value="Radial (Food)" onclick="radial_food()">
+	    </div>
+    <!-- Your D3.js code for making a Line Graph -->
+    <script type="text/javascript" src="ClusterLayout.js"></script>   
+    
+    <!-- Submission Info -->
+    <!--<h4>Created by "Mingun Cho"</h4>-->
+    <!--<p>Short demonstration of cluster layouts.</p>-->  
+    <!--<h4>Files Submitted:</h4>-->
+    <!--<ul>
+      <li>ClusterLayoutindex.html</li>
+      <li>ClusterLayoutstylesheet.css</li>
+      <li>ClusterLayout.js</li>
+      <li>basic_default_data.json</li> 
+      <li>basic_more_data.json</li>  
+      <li>dendrogram_default_data.json</li> 
+      <li>dendrogram_ucsc_data.json</li> 
+      <li>radial_default_data.csv</li> 
+      <li>radial_food_data.csv</li> 
+    </ul>-->
+    <!--<h4> Web Resources: </h4>-->
+    <!--<ul>
+      <li><a href="https://bl.ocks.org/d3indepth/ceb8d9e5ded610a9df1e0adb98efd748"> Cluster layout by d3indepth</a></li>
+      <li><a href="https://observablehq.com/@d3/cluster-dendrogram"> Cluster Dendrogram by Mike Bostock</a></li>
+      <li><a href="https://www.d3-graph-gallery.com/graph/dendrogram_basic.html"> Most basic dendrogram in d3.js</a></li>
+      <li><a href="https://bl.ocks.org/mbostock/4339607"> Radial Cluster Dendrogram by Mike Bostock</a></li>
+    </ul>-->
+	<!--<h4> Data Resources: </h4>-->
+    <!--<ul>
+      <li><a href="https://summer.ucsc.edu/courses/by-department.html"> Remote Summer Courses by Department</a></li>
+      <li><a href="https://www.myrecipes.com/ingredients/types-of-beans"> 13 Common Types of Beans and How to Use Them</a></li>
+      <li><a href="https://www.halfyourplate.ca/fruits-and-veggies/fruits-a-z/"> Fruits From A-Z</a></li>
+      <li><a href="https://www.thespruceeats.com/types-of-clams-4067419"> Types of Clams</a></li>
+      <li><a href="https://www.vegetables.co.nz/vegetables-a-z/9"> Vegetables A-Z</a></li>
+    </ul>-->
+  </body>
+    
+</html>

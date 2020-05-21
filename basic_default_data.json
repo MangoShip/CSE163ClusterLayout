@@ -1,0 +1,22 @@
+{
+    "name": "A1",
+    "children": [
+        {
+            "name": "B1",
+            "children": [
+                {
+                    "name": "C2",
+                    "value": 100
+                },
+                {
+                    "name": "C1",
+                    "value": 300
+                }
+            ]
+        },
+        {
+            "name": "B2",
+            "value": 200
+        }
+    ]
+}
